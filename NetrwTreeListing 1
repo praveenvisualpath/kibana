@@ -1,0 +1,32 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v155)
+"   /
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+/
+| bin/
+| boot/
+| dev/
+| etc/
+| home/
+| lib/
+| lib64/
+| lost+found/
+| media/
+| mnt/
+| opt/
+| proc/
+| root/
+| run/
+| sbin/
+| snap/
+| srv/
+| sys/
+| tmp/
+| usr/
+| var/
+| initrd.img@	 --> boot/initrd.img-4.4.0-87-generic
+| vmlinuz@	 --> boot/vmlinuz-4.4.0-87-generic

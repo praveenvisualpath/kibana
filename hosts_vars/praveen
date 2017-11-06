@@ -1,0 +1,6 @@
+---
+http_port: 8080
+ansible_hosts:192.168.56.10
+ansible_user: root
+ansible_ssh_pass: test123
+ansible_port: 22

@@ -1,0 +1,23 @@
+--- 
+- hosts: all
+  tasks: 
+    - name: install webserver package
+      apt: name=nginx state=present update_cache=yes
+      ignore_errors: yes 
+      when: ansible_os_family=='Debian'
+  
+    - name: install webserver package
+      yum: name=nginx state=present update_cache=yes
+      ignore_errors: yes
+      when: ansible_os_family=='RedHat'
+ 
+ 
+    - name: update nginx.conf file
+      lineinfile:
+        path: /etc/nginx/nginx.conf
+        line: "servername 127.0.0.01"
+      notify: check service status
+   
+  handlers:
+     - name: check service status
+       service: name=nginx state=restarted 

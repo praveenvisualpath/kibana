@@ -1,0 +1,13 @@
+---
+- name: install nginx package
+  apt: name=nginx state=present
+  ignore_errors: yes
+  when: ansible_os_family== 'Debian'
+
+- name: install nginx package
+  yum: name=nginx state=present
+  ignore_errors: yes
+  when: ansible_os_family== 'RedHat'
+
+- name: service started
+  service: name=nginx state=started

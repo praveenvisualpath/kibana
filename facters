@@ -1,0 +1,8 @@
+praveen | FAILED! => {
+    "failed": true, 
+    "msg": "The module setup/ was not found in configured module paths. Additionally, core modules are missing. If this is a checkout, run 'git pull --rebase' to correct this problem."
+}
+praveentest | FAILED! => {
+    "failed": true, 
+    "msg": "The module setup/ was not found in configured module paths. Additionally, core modules are missing. If this is a checkout, run 'git pull --rebase' to correct this problem."
+}

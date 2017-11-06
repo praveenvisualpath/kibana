@@ -1,0 +1,8 @@
+praveen ansible_host=192.168.56.10 ansible_user=root ansible_ssh_pass=test123
+#praveentest ansible_host=192.168.56.25 ansible_user=root ansible_ssh_pass=9441915633
+
+
+[webservers]
+praveen
+[dbservers]
+praveentest
